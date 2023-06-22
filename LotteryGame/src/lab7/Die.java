@@ -4,9 +4,6 @@ import java.util.Random;
 /**
  * 
  * @author Hamza Wahhas
- * CS 210
- * 3/15/2021
- * Lab 7
  * Die.java
  *
  */

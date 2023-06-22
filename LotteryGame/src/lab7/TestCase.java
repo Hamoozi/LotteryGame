@@ -7,10 +7,7 @@ import java.util.Scanner;
 /**
  * 
  * @author Hamza Wahhas
- * CS 210
- * 3/15/2021
- * Lab 7
- * Lab7Driver.java
+ * TestCase.java
  *
  */
 public class TestCase {
