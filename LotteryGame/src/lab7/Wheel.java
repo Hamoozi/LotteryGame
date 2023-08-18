@@ -1,23 +1,17 @@
 package lab7;
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza
  * Wheel.java
  *
  */
-
 //Abstract class that creates a wheel and implements Rollable for its children
 public abstract class Wheel implements Rollable{
 	
 	//Initialize attribute
 	protected int wheelSize;
-	
-	
-	
-	
 	///Constructor
-	public Wheel(int wheelSize) {
-		
+	public Wheel(int wheelSize) {	
 		this.wheelSize = wheelSize;
 		
 	}
@@ -29,8 +23,6 @@ public abstract class Wheel implements Rollable{
 	public int getWheelSize() {
 		return wheelSize;
 	}
-
-
 	/**
 	 * 
 	 * @param wheelSize
@@ -39,13 +31,5 @@ public abstract class Wheel implements Rollable{
 		this.wheelSize = wheelSize;
 	}
 
-
-
-	
-	
-	
-	
-	
-	
 
 }

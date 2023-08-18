@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza
  * LottoBall.java
  *
  */
@@ -17,11 +17,8 @@ public class LottoBall implements Rollable {
 	protected int max;
 	
 	//Constructor
-	public LottoBall(int max) {
-		
+	public LottoBall(int max) {	
 		this.max = max;
-		
-		
 	}
 
 	/**

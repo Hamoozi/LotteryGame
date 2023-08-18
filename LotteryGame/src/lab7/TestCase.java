@@ -6,31 +6,23 @@ import java.util.Scanner;
 
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza
  * TestCase.java
  *
  */
 public class TestCase {
-
-	
 	public static<T> void main(String[] args) throws Exception {
 		//Create scanner for user input
-		Scanner input = new Scanner(System.in);
-		
+		Scanner input = new Scanner(System.in);	
 		//Create ArrayList for Rollable objects
 		ArrayList<Die> dies = new ArrayList<Die>();
 		ArrayList<StepperWheel> wheels = new ArrayList<StepperWheel>();
-		ArrayList<LottoBall> balls = new ArrayList<LottoBall>();
-		
-		
+		ArrayList<LottoBall> balls = new ArrayList<LottoBall>();	
 		//Create instances of GameOfChance
 		GameOfChance testWheel = new GameOfChance(wheels, "StepperWheel");
 		GameOfChance testDie = new GameOfChance(dies, "Dice");
 		GameOfChance testBall = new GameOfChance(balls, "LottoBall");
 	
-		
-		
-		
 		//Create StepperWheels
 		//I created three
 		StepperWheel wheel = new StepperWheel(5);
@@ -56,12 +48,6 @@ public class TestCase {
 		}
 		System.out.println();
 		
-		
-		
-		
-		
-		
-		
 		//Create new arrau in order to build list of user values
 		ArrayList<String> testLotto = new ArrayList<String>();
 		
@@ -81,9 +67,6 @@ public class TestCase {
 			testLotto.add(input.nextLine());
 		}
 		
-		
-		
-		
 		System.out.println("Testing LottoBall");
 		//String version
 		System.out.println(testBall.play().replace("[", "").replace("]", ""));
@@ -100,8 +83,7 @@ public class TestCase {
 		}
 		
 		System.out.println();
-		
-		
+			
 		//Create die
 		Die die = new Die();
 		Die die1 = new Die();
@@ -123,8 +105,6 @@ public class TestCase {
 		}
 		
 		System.out.println();
-		
-		
 		
 	}
 

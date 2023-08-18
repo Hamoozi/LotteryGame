@@ -7,7 +7,7 @@ import java.util.Random;
 
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza 
  * StepperWheel.java
  *
  */
@@ -22,27 +22,20 @@ public class StepperWheel extends Wheel {
 	 */
 	public StepperWheel(int wheelSize) {
 		super(wheelSize);
-		// TODO Auto-generated constructor stub
-		
-		
+		// TODO Auto-generated constructor stub	
  	}
 	
 
 	//Create logic for rollRandom from Rollable interface
 	public String rollRandom() {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 		//Creates array based off of wheelsize
-		if (wheelSize < 7 && wheelSize >=2) {
-			
+		if (wheelSize < 7 && wheelSize >=2) {		
 			//Create copy
 			String arr[] = Arrays.copyOfRange(array, 0, 9);
-			
 			int random = new Random().nextInt(arr.length);
 			//Return random symbol
-			return arr[random];
-			
-			
+			return arr[random];	
 		}
 		//Creates array based off of wheelsize
 		else if (wheelSize >= 7 && wheelSize < 21) {

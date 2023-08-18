@@ -1,7 +1,7 @@
 package lab7;
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza 
  * Rollable.java
  *
  */
@@ -12,7 +12,5 @@ public interface Rollable{
 	 */
 	
 	public String rollRandom();
-	
-	
 	
 }

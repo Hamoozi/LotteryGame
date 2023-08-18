@@ -1,30 +1,20 @@
 package lab7;
 
 import java.util.ArrayList;
-
-
-
-
-
-
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza
  * GameOfChance.java
  *
  */
-
 
 //Constructor
 //T extends Rollable to allow use of classes that have implemented Rollable
 public class GameOfChance<T extends Rollable> implements Rollable {
 	
 	//Attributes 
-	
-	
 	//Create list to store rollable objects
 	protected ArrayList<T> myList;
-	
 	//String of the current game being played
 	protected String currentPlay;
 	
@@ -92,21 +82,11 @@ public class GameOfChance<T extends Rollable> implements Rollable {
 	 * Adds to object to myList
 	 */
 	public void add(T x) {
-
-		
-
 		myList.add(x);
-		
-	
-		
-		
-
-		
 	}
 	//Plays the game by returning the randomized values from list
 	//Adds each rollRandom from myList to be used later
 	public String play() {
-		
 		
 		for (int i =0; i<myList.size();i++) {
 			List.add(myList.get(i).rollRandom());	
@@ -116,14 +96,10 @@ public class GameOfChance<T extends Rollable> implements Rollable {
 			return List.get(0);
 		}
 		return List.toString();
-		
-		
-		
-		
+
 	}
 	//Returns whether the user has won or not
 	//Uses exception when there isn't enough objects
-	
 	/**
 	 * 
 	 * @return boolean value of winner
