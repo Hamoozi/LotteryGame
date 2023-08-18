@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  * 
- * @author Hamza Wahhas
+ * @author Hamza
  * GameOfChance.java
  *
  */
